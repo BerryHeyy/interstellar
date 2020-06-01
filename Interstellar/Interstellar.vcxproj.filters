@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\res">
+      <UniqueIdentifier>{21e73395-7c92-4647-bb77-666c812bda45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Registry">
+      <UniqueIdentifier>{b645e128-ee70-45a9-98d2-53fcc462c3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Registry">
+      <UniqueIdentifier>{1ca0827e-e5da-49ea-8261-900aede0015c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Celestial Objects">
+      <UniqueIdentifier>{99451fb9-643c-46a2-96c5-9cdfb019daff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Celestial Objects">
+      <UniqueIdentifier>{7d59efe2-2937-4168-8e1b-1990d8b6319f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{90704383-dc7c-47cd-bc27-f60bb82161c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{c229db8e-5e7e-460f-871b-5dde0d922c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{c43df5ef-96dd-440b-8da2-dddac1085c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Celestial Objects\Star">
+      <UniqueIdentifier>{e8f4a490-7551-47c4-93fc-aad3c83cc61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Celestial Objects\Star">
+      <UniqueIdentifier>{d7ec3d24-6ae1-420b-aff8-9a6ba340127a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitives.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Registerable.cpp">
+      <Filter>Source Files\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="CelestialObject.cpp">
+      <Filter>Source Files\Celestial Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Celestial Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files\Celestial Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files\Celestial Objects\Star</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Registerable.h">
+      <Filter>Header Files\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="CelestialObject.h">
+      <Filter>Header Files\Celestial Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Celestial Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Header Files\Celestial Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files\Celestial Objects\Star</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_shader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lighting_fragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Systems.json">
+      <Filter>Resource Files\data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\machine_casing.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="res\machine_casing_filled.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
