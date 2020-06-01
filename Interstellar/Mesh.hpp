@@ -5,10 +5,10 @@
 #include <iostream>
 #include <vector>
 
-#include "Material.h"
-#include "Vertex.h"
-#include "shader.h"
-#include "Primitive.h"
+#include "Material.hpp"
+#include "Vertex.hpp"
+#include "shader.hpp"
+#include "Primitive.hpp"
 
 class Mesh
 {

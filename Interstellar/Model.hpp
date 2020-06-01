@@ -2,8 +2,8 @@
 
 #include <vector>
 
-#include "Mesh.h"
-#include "shader.h"
+#include "Mesh.hpp"
+#include "shader.hpp"
 
 class Model
 {

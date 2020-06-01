@@ -5,9 +5,9 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include "Camera.h"
-#include "Model.h"
-#include "Window.h"
+#include "Camera.hpp"
+#include "Model.hpp"
+#include "Window.hpp"
 
 class Game
 {

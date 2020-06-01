@@ -1,4 +1,4 @@
-#include "Mesh.h"
+#include "Mesh.hpp"
 
 Mesh::Mesh(Vertex* vertexArray, const unsigned& nrOfVertices, GLuint* indexArray, const unsigned& nrOfIndices, glm::vec3 position,
 	glm::vec3 rotation, glm::vec3 scale)

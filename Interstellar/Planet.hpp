@@ -1,8 +1,8 @@
 #pragma once
 
-#include "CelestialObject.h"
-#include "System.h"
-#include "Position.h"
+#include "CelestialObject.hpp"
+#include "System.hpp"
+#include "Position.hpp"
 
 enum PlanetType
 {

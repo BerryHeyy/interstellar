@@ -1,7 +1,7 @@
 #pragma once
 
-#include "System.h"
-#include "Position.h"
+#include "System.hpp"
+#include "Position.hpp"
 
 class CelestialObject
 {

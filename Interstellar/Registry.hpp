@@ -2,7 +2,7 @@
 
 #include <list>
 
-#include "Registerable.h"
+#include "Registerable.hpp"
 
 class Registry
 {

@@ -161,24 +161,24 @@
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="CelestialObject.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="Planet.h" />
-    <ClInclude Include="Position.h" />
-    <ClInclude Include="Primitive.h" />
-    <ClInclude Include="Primitives.h" />
-    <ClInclude Include="Registerable.h" />
-    <ClInclude Include="Registry.h" />
-    <ClInclude Include="shader.h" />
-    <ClInclude Include="Star.h" />
-    <ClInclude Include="stb_image.h" />
-    <ClInclude Include="System.h" />
-    <ClInclude Include="Vertex.h" />
-    <ClInclude Include="Window.h" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="CelestialObject.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Material.hpp" />
+    <ClInclude Include="Mesh.hpp" />
+    <ClInclude Include="Model.hpp" />
+    <ClInclude Include="Planet.hpp" />
+    <ClInclude Include="Position.hpp" />
+    <ClInclude Include="Primitive.hpp" />
+    <ClInclude Include="Primitives.hpp" />
+    <ClInclude Include="Registerable.hpp" />
+    <ClInclude Include="Registry.hpp" />
+    <ClInclude Include="shader.hpp" />
+    <ClInclude Include="Star.hpp" />
+    <ClInclude Include="stb_image.hpp" />
+    <ClInclude Include="System.hpp" />
+    <ClInclude Include="Vertex.hpp" />
+    <ClInclude Include="Window.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lighting_fragment.glsl" />

@@ -10,16 +10,16 @@
 
 #include <GLFW/glfw3.h>
 
-#include "Shader.h"
-#include "Camera.h"
-#include "Window.h"
-#include "Game.h"
-#include "Material.h"
-#include "Mesh.h"
-#include "Primitives.h"
+#include "Shader.hpp"
+#include "Camera.hpp"
+#include "Window.hpp"
+#include "Game.hpp"
+#include "Material.hpp"
+#include "Mesh.hpp"
+#include "Primitives.hpp"
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include "stb_image.hpp"
 
 const GLint WIDTH = 800, HEIGHT = 600;
 

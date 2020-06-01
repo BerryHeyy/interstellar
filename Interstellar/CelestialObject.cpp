@@ -1,4 +1,4 @@
-#include "CelestialObject.h"
+#include "CelestialObject.hpp"
 
 CelestialObject::CelestialObject(System system, Position position)
 {

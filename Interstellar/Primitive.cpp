@@ -1,4 +1,4 @@
-#include "Primitive.h"
+#include "Primitive.hpp"
 
 Primitive::Primitive()
 {
